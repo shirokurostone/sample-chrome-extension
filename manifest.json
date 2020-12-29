@@ -1,0 +1,14 @@
+{
+    "name": "sample-chrome-extension",
+    "version": "0.1.0",
+    "description": "sample-chrome-extension",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "identicon.png"
+    },
+    "permissions": [
+        "notifications",
+        "tabs"
+    ],
+    "manifest_version": 3
+}
